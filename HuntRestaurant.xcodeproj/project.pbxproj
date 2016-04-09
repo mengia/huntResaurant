@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5ED0E01CB957900031260A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED0DF1CB957900031260A /* AppDelegate.swift */; };
+		3B5ED0E21CB957900031260A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED0E11CB957900031260A /* ViewController.swift */; };
+		3B5ED0E51CB957900031260A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED0E31CB957900031260A /* Main.storyboard */; };
+		3B5ED0E71CB957900031260A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED0E61CB957900031260A /* Assets.xcassets */; };
+		3B5ED0EA1CB957900031260A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED0E81CB957900031260A /* LaunchScreen.storyboard */; };
+		3B5ED0F51CB957900031260A /* HuntRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED0F41CB957900031260A /* HuntRestaurantTests.swift */; };
+		3B5ED1001CB957900031260A /* HuntRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED0FF1CB957900031260A /* HuntRestaurantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5ED0F11CB957900031260A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5ED0D41CB957900031260A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5ED0DB1CB957900031260A;
+			remoteInfo = HuntRestaurant;
+		};
+		3B5ED0FC1CB957900031260A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5ED0D41CB957900031260A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5ED0DB1CB957900031260A;
+			remoteInfo = HuntRestaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5ED0DC1CB957900031260A /* HuntRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5ED0DF1CB957900031260A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B5ED0E11CB957900031260A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B5ED0E41CB957900031260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B5ED0E61CB957900031260A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5ED0E91CB957900031260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B5ED0EB1CB957900031260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5ED0F01CB957900031260A /* HuntRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5ED0F41CB957900031260A /* HuntRestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntRestaurantTests.swift; sourceTree = "<group>"; };
+		3B5ED0F61CB957900031260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5ED0FB1CB957900031260A /* HuntRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5ED0FF1CB957900031260A /* HuntRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntRestaurantUITests.swift; sourceTree = "<group>"; };
+		3B5ED1011CB957900031260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5ED0D91CB957900031260A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0ED1CB957900031260A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0F81CB957900031260A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5ED0D31CB957900031260A = {
+			isa = PBXGroup;
+			children = (
+				3B5ED0DE1CB957900031260A /* HuntRestaurant */,
+				3B5ED0F31CB957900031260A /* HuntRestaurantTests */,
+				3B5ED0FE1CB957900031260A /* HuntRestaurantUITests */,
+				3B5ED0DD1CB957900031260A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5ED0DD1CB957900031260A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5ED0DC1CB957900031260A /* HuntRestaurant.app */,
+				3B5ED0F01CB957900031260A /* HuntRestaurantTests.xctest */,
+				3B5ED0FB1CB957900031260A /* HuntRestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5ED0DE1CB957900031260A /* HuntRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				3B5ED0DF1CB957900031260A /* AppDelegate.swift */,
+				3B5ED0E11CB957900031260A /* ViewController.swift */,
+				3B5ED0E31CB957900031260A /* Main.storyboard */,
+				3B5ED0E61CB957900031260A /* Assets.xcassets */,
+				3B5ED0E81CB957900031260A /* LaunchScreen.storyboard */,
+				3B5ED0EB1CB957900031260A /* Info.plist */,
+			);
+			path = HuntRestaurant;
+			sourceTree = "<group>";
+		};
+		3B5ED0F31CB957900031260A /* HuntRestaurantTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5ED0F41CB957900031260A /* HuntRestaurantTests.swift */,
+				3B5ED0F61CB957900031260A /* Info.plist */,
+			);
+			path = HuntRestaurantTests;
+			sourceTree = "<group>";
+		};
+		3B5ED0FE1CB957900031260A /* HuntRestaurantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5ED0FF1CB957900031260A /* HuntRestaurantUITests.swift */,
+				3B5ED1011CB957900031260A /* Info.plist */,
+			);
+			path = HuntRestaurantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5ED0DB1CB957900031260A /* HuntRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5ED1041CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurant" */;
+			buildPhases = (
+				3B5ED0D81CB957900031260A /* Sources */,
+				3B5ED0D91CB957900031260A /* Frameworks */,
+				3B5ED0DA1CB957900031260A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuntRestaurant;
+			productName = HuntRestaurant;
+			productReference = 3B5ED0DC1CB957900031260A /* HuntRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5ED0EF1CB957900031260A /* HuntRestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5ED1071CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurantTests" */;
+			buildPhases = (
+				3B5ED0EC1CB957900031260A /* Sources */,
+				3B5ED0ED1CB957900031260A /* Frameworks */,
+				3B5ED0EE1CB957900031260A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5ED0F21CB957900031260A /* PBXTargetDependency */,
+			);
+			name = HuntRestaurantTests;
+			productName = HuntRestaurantTests;
+			productReference = 3B5ED0F01CB957900031260A /* HuntRestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5ED0FA1CB957900031260A /* HuntRestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5ED10A1CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurantUITests" */;
+			buildPhases = (
+				3B5ED0F71CB957900031260A /* Sources */,
+				3B5ED0F81CB957900031260A /* Frameworks */,
+				3B5ED0F91CB957900031260A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5ED0FD1CB957900031260A /* PBXTargetDependency */,
+			);
+			name = HuntRestaurantUITests;
+			productName = HuntRestaurantUITests;
+			productReference = 3B5ED0FB1CB957900031260A /* HuntRestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5ED0D41CB957900031260A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mengistayehu Mamo";
+				TargetAttributes = {
+					3B5ED0DB1CB957900031260A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3B5ED0EF1CB957900031260A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3B5ED0DB1CB957900031260A;
+					};
+					3B5ED0FA1CB957900031260A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3B5ED0DB1CB957900031260A;
+					};
+				};
+			};
+			buildConfigurationList = 3B5ED0D71CB957900031260A /* Build configuration list for PBXProject "HuntRestaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5ED0D31CB957900031260A;
+			productRefGroup = 3B5ED0DD1CB957900031260A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5ED0DB1CB957900031260A /* HuntRestaurant */,
+				3B5ED0EF1CB957900031260A /* HuntRestaurantTests */,
+				3B5ED0FA1CB957900031260A /* HuntRestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5ED0DA1CB957900031260A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5ED0EA1CB957900031260A /* LaunchScreen.storyboard in Resources */,
+				3B5ED0E71CB957900031260A /* Assets.xcassets in Resources */,
+				3B5ED0E51CB957900031260A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0EE1CB957900031260A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0F91CB957900031260A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5ED0D81CB957900031260A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5ED0E21CB957900031260A /* ViewController.swift in Sources */,
+				3B5ED0E01CB957900031260A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0EC1CB957900031260A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5ED0F51CB957900031260A /* HuntRestaurantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5ED0F71CB957900031260A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5ED1001CB957900031260A /* HuntRestaurantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5ED0F21CB957900031260A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5ED0DB1CB957900031260A /* HuntRestaurant */;
+			targetProxy = 3B5ED0F11CB957900031260A /* PBXContainerItemProxy */;
+		};
+		3B5ED0FD1CB957900031260A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5ED0DB1CB957900031260A /* HuntRestaurant */;
+			targetProxy = 3B5ED0FC1CB957900031260A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B5ED0E31CB957900031260A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5ED0E41CB957900031260A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B5ED0E81CB957900031260A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5ED0E91CB957900031260A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5ED1021CB957900031260A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B5ED1031CB957900031260A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B5ED1051CB957900031260A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuntRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B5ED1061CB957900031260A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuntRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B5ED1081CB957900031260A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuntRestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuntRestaurant.app/HuntRestaurant";
+			};
+			name = Debug;
+		};
+		3B5ED1091CB957900031260A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuntRestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuntRestaurant.app/HuntRestaurant";
+			};
+			name = Release;
+		};
+		3B5ED10B1CB957900031260A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuntRestaurantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuntRestaurant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B5ED10C1CB957900031260A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuntRestaurantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.HuntRestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuntRestaurant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5ED0D71CB957900031260A /* Build configuration list for PBXProject "HuntRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5ED1021CB957900031260A /* Debug */,
+				3B5ED1031CB957900031260A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5ED1041CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5ED1051CB957900031260A /* Debug */,
+				3B5ED1061CB957900031260A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B5ED1071CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5ED1081CB957900031260A /* Debug */,
+				3B5ED1091CB957900031260A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B5ED10A1CB957900031260A /* Build configuration list for PBXNativeTarget "HuntRestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5ED10B1CB957900031260A /* Debug */,
+				3B5ED10C1CB957900031260A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5ED0D41CB957900031260A /* Project object */;
+}
