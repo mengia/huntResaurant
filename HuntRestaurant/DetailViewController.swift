@@ -13,6 +13,7 @@ class DetailViewController: UIViewController, UITableViewDataSource,UITableViewD
     var resturantNew:Restuarant!
    
     @IBOutlet weak var tableview: UITableView!
+    @IBOutlet weak var ratingBUtton: UIButton!
    
 
     override func viewDidLoad() {
@@ -32,7 +33,18 @@ class DetailViewController: UIViewController, UITableViewDataSource,UITableViewD
 
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func close(segue:UIStoryboardSegue) {
+        
+        if let reviewviewController = segue.sourceViewController as? ReviewViewController
+        {
+            if let rating = reviewviewController.rating{
+        ratingBUtton.setImage(UIImage(named: rating), forState: .Normal)
+                
+            }
+        }
+    }
+        
+
      func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
@@ -69,7 +81,12 @@ class DetailViewController: UIViewController, UITableViewDataSource,UITableViewD
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showMap"{
+            let distinationView = segue.destinationViewController as? MapViewController
+                distinationView?.resturant = resturantNew
+    }
+    }
     /*
     // MARK: - Navigation
 
